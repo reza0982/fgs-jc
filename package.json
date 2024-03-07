@@ -1,14 +1,20 @@
 {
   "name": "fgs-jc",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "public": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/reza0982/fgs-jc.git"
+
+  },
   "dependencies": {
+    "fgs-jc": "^1.0.2",
     "firebase-admin": "^12.0.0",
     "next": "14.0.4",
     "next-auth": "^4.24.5",
